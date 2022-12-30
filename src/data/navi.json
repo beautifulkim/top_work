@@ -1,0 +1,31 @@
+{
+    "naviDB" : [{
+                    "navititle" : "인물탐방",
+                    "naviLink" : "#about" 
+                },
+                {
+                    "navititle" : "작업들",
+                    "naviLink" : "#portfolio" 
+                },
+                {
+                    "navititle" : "면접제안",
+                    "naviLink" : "#contact" 
+                },
+                {
+                    "navititle" : "사전인터뷰",
+                    "naviLink" : "#preinterview" 
+                }],
+    "work" : [
+        {
+            "subject" : "리액트광고페이지",
+            "tool" : ["abodeXD", "illust", "vscode"],
+            "siteurl" : "http://www.naver.com"
+        },
+        {
+            "subject" : "이커머스",
+            "tool" : ["figma", "photoshop", "vscode","프리미어"],
+            "siteurl" : "http://www.11st.co.kr"
+        }
+    ]
+
+}

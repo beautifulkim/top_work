@@ -1,0 +1,71 @@
+:root{
+    --bby-active : #7735f8
+}
+*{
+    /* 영문폰트 먼저, 한글폰트 */
+    font-family: 'Montserrat', 'Gothic A1', sans-serif;
+    font-weight: 300;
+    color: #191919;
+}
+a{
+    text-decoration: none;
+    color: #191919;
+}
+ul, dl, ol{ list-style: none;}
+a:hover{
+    color:var(--bby-active)
+}
+/* 공통클래스 */
+.activeColor{
+    color:var(--bby-active) !important;
+}
+.colorLight{
+    color: #ccc !important;
+}
+.colorDark{
+    color: #191919 !important;
+}
+.bgActive{
+    background-color: var(--bby-active) !important;    
+}
+.section{
+    padding: 8rem;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+
+/* 영문 한글 폰트 공통 */
+.fw100{
+    font-weight: 100 !important;
+}
+.fw300{
+    font-weight: 300 !important;
+}
+.fw600{
+    font-weight: 600 !important;
+}
+.fw600 *{
+    font-weight: 600 !important;
+}
+.font12{
+    font-size: 12px !important;
+}
+.font13{
+    font-size: 13px !important;
+}
+.font14{
+    font-size: 14px !important;
+}
+.font15{
+    font-size: 15px !important;
+}
+.font16{
+    font-size: 16px !important;
+}
+.font18{
+    font-size: 18px !important;
+}
+.font20{
+    font-size: 20px !important;
+}
